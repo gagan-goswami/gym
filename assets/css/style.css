@@ -29,7 +29,7 @@ a:hover {
 
 .header-section .menu-bar {
   border-bottom: 1px solid rgba(235, 235, 229, 0.096);
-  padding: 10px 0px;
+  padding: 5px 0px;
 }
 
 .is-sticky-menu {
@@ -65,13 +65,16 @@ a:hover {
   right: 0;
 }
 
-
 .header-section .navbar-toggler {
   background-color: var(--primary-color);
   color: var(--white);
   padding: 5px;
   margin: 0px;
   line-height: 28px;
+}
+
+.header-section .navbar-toggler:focus {
+  box-shadow: none;
 }
 
 .header-section .dropdown-menu {
@@ -82,6 +85,22 @@ a:hover {
   border-radius: 0;
   padding: 0;
   background-color: var(--primary-color);
+  display: none;
+}
+
+.header-section .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.header-section .sibar-toggle {
+  background-color: var(--white);
+  color: var(--primary-color);
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-right: 10px;
 }
 
 .header-section .dropdown-menu .dropdown-item {
@@ -92,8 +111,8 @@ a:hover {
 }
 
 .header-section .dropdown-menu .dropdown-item:hover {
-  background-color: var(--white);
-  color: var(--dark);
+  background-color: var(--dark);
+  color: var(--white);
 }
 
 .header-section .nav-link:hover:after {
@@ -136,16 +155,14 @@ a:hover {
   text-align: center;
 }
 
-
 .header-section .icon .social-icon li::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background-color: var(--white);
   width: 0;
   z-index: -1;
   border-radius: 50%;
-
 }
 
 .header-section .icon .social-icon li:hover:before {
@@ -156,7 +173,6 @@ a:hover {
 .header-section .icon .social-icon li:hover a {
   color: var(--primary-color);
 }
-
 
 .header-section .menu-bar .search {
   width: 40px;
@@ -172,6 +188,7 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
   border: none;
+  margin: 10px 0px;
 }
 
 .header-section .menu-bar .modal.show .modal-dialog {
@@ -214,6 +231,15 @@ a:hover {
   box-shadow: none;
   background-image: none;
   margin-top: 10px;
+  box-shadow: none;
+}
+
+.modal-header .btn-close:hover {
+  color: var(--white);
+}
+
+.modal-header .btn-close:focus {
+  box-shadow: none;
 }
 
 .header-section .modal-body {
@@ -443,22 +469,19 @@ a:hover {
 }
 
 .why-choose-section .why-choose-item .why-choose-icon::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background-color: var(--white);
   width: 0;
   z-index: -1;
   border-radius: 50%;
-
 }
 
-.why-choose-section .why-choose-item .why-choose-icon:hover:before {
+.why-choose-section .why-choose-item:hover .why-choose-icon:before {
   width: 100%;
   transition: all 0.4s ease-in-out;
 }
-
-
 
 .why-choose-section .why-choose-item .why-choose-icon img {
   height: 50px;
@@ -510,7 +533,7 @@ a:hover {
 }
 
 .our-classes-section .class-item .card .card-image::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background-color: #f45f0222;
@@ -521,7 +544,6 @@ a:hover {
   width: 100%;
   transition: all 0.4s ease-in-out;
 }
-
 
 .our-classes-section .class-item span {
   font-size: 18px;
@@ -555,7 +577,7 @@ a:hover {
 }
 
 .our-classes-section .class-item .card-body .read-more::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background-color: #f45f0222;
@@ -566,7 +588,6 @@ a:hover {
   width: 100%;
   transition: all 0.4s ease-in-out;
 }
-
 
 /*===============================================*/
 /*========== .about-section =========*/
@@ -607,7 +628,6 @@ a:hover {
   font-weight: 600;
   color: var(--primary-color);
 }
-
 
 .about-section .about-content button {
   position: relative;
@@ -682,8 +702,6 @@ a:hover {
   padding-bottom: 40px;
 }
 
-
-
 .pricing-section .pricing-item .pricing-top {
   margin-bottom: 10px;
   position: relative;
@@ -695,11 +713,10 @@ a:hover {
   color: var(--white);
   background-color: var(--primary-color);
   padding: 10px;
-
 }
 
 .pricing-section .pricing-item .pricing-top::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background-color: var(--primary-color);
@@ -791,7 +808,7 @@ a:hover {
 }
 
 .gallery-section .gallery-item::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background-color: #f45f0222;
@@ -803,13 +820,12 @@ a:hover {
   transition: all 0.4s ease-in-out;
 }
 
-
 .gallery-section .gallery-item img {
   width: 100%;
 }
 
 .gallery-section .column {
-  -ms-flex: 25%;
+  -ms-flex: 75%;
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
@@ -819,24 +835,6 @@ a:hover {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
 }
 
 /*====================================*/
@@ -868,7 +866,6 @@ a:hover {
   color: var(--white);
 }
 
-
 .team-section .Appointment-link a {
   padding: 5px;
   border: 4px solid var(--primary-color);
@@ -890,7 +887,7 @@ a:hover {
 }
 
 .team-section .team-item::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background-color: #f45f0222;
@@ -987,12 +984,28 @@ a:hover {
   font-size: 30px;
   text-align: center;
   line-height: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-section .contact-item .contact-icon::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--white);
+  width: 0;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.contact-section .contact-item .contact-icon:hover:before {
+  width: 100%;
+  transition: all 0.4s ease-in-out;
 }
 
 .contact-section .contact-item .contact-icon:hover {
-  background-color: var(--white);
   color: var(--primary-color);
-  transition: 1s;
+  transition: all 0.4s ease-in-out;
 }
 
 .contact-section .contact-item p {
@@ -1040,6 +1053,27 @@ a:hover {
   font-size: 20px;
   text-align: center;
   color: var(--white);
+  position: relative;
+  z-index: 1;
+}
+
+.footer .footer-item li::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--white);
+  width: 0;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.footer .footer-item li:hover:before {
+  width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.footer .footer-item:hover a {
+  color: var(--primary-color);
 }
 
 .footer .footer-item .social li a {
@@ -1079,11 +1113,28 @@ a:hover {
   font-size: 16px;
   color: var(--white);
   text-decoration: none;
+  position: relative;
+}
+
+.footer .footer-item .Useful-links li a::before,
+.footer .footer-item .Support-links li a::before {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  height: 2px;
+  width: 0;
+  background-color: var(--primary-color);
+}
+
+.footer .footer-item .Useful-links li:hover a::before,
+.footer .footer-item .Support-links li:hover a::before {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
 }
 
 .footer .footer-item .Useful-links li,
 .footer .footer-item .Support-links li {
-  margin: 5px 0px;
+  margin: 10px 0px;
 }
 
 .footer .footer-item .Comment-box a {
@@ -1112,7 +1163,18 @@ a:hover {
   margin-top: 25px;
 }
 
-.footer .copy-right a {
-  text-decoration: none;
-  color: var(--primary-color);
+.footer .top-button .top {
+  background-color: var(--primary-color);
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+  color: var(--white);
+  right: 1em;
+  bottom: 2em;
+  position: fixed;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: center;
+  z-index: 9999;
 }
