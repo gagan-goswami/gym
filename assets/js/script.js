@@ -28,7 +28,7 @@ $(".slider-1").owlCarousel({
 
 $(".slider-2").owlCarousel({
     slideBy: 1,
-    autoplay: false,
+    autoplay: true,
     animateOut: 'fadeOut',
     loop: true,
     padding: false,
