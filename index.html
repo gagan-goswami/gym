@@ -1,857 +1,855 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- SEO Meta Tags -->
-    <meta
-      name="description"
-      content="A brief description of your webpage for SEO purposes."
-    />
-    <meta name="keywords" content="keyword1, keyword2, keyword3" />
-    <meta name="author" content="Your Name or Company Name" />
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Title -->
-    <title>Gym Home</title>
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="A brief description of your webpage for SEO purposes.">
+  <meta name="keywords" content="keyword1, keyword2, keyword3">
+  <meta name="author" content="Your Name or Company Name">
 
-    <!-- Favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./assets/images/dumbbell.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/dumbbell.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./assets/images/dumbbell.png"
-    />
-    <link rel="manifest" href="/site.webmanifest" />
+  <!-- Title -->
+  <title>Gym Home</title>
 
-    <!-- CSS Links -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/all.css" />
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="assets/css/mediaquery.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-  </head>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/dumbbell.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/dumbbell.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/dumbbell.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/all.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/mediaquery.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
 
 <body>
-    <!-- ==================== -->
-    <!-- == header-section == -->
-    <!-- ==================== -->
-    <header class="header-section">
-        <div class="menu-bar is-sticky-on">
-            <!-- Navbar -->
-            <div class="container">
-                <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="#">
-                        <img src="./assets/images/logo.png.webp" alt="">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon">
-                            <i class="fas fa-bars"></i>
-                        </span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav m-auto  p-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">about</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#"> Team</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link">pages <i class="fa fa-angle-down"></i>
-                                </a>
-                                <div class="dropdown-menu">
-                                    <a href="#" class="dropdown-item"> Home</a>
-                                    <a href="#" class="dropdown-item"> About</a>
-                                    <a href="#" class="dropdown-item"> Classes</a>
-                                    <a href="#" class="dropdown-item"> Services</a>
-                                    <a href="#" class="dropdown-item"> Pages</a>
-                                    <a href="#" class="dropdown-item"> Contact</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">contact</a>
-                            </li>
-                        </ul>
-                        <!-- Button trigger modal -->
-                        <div class="search-icon" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <i class="fas fa-search search"></i>
-                        </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
-                            <div class="modal-dialog modal-fullscreen">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close">
-                                            <i class="fas fa-times"></i>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="example">
-                                            <form role="search" method="post" class="search-form" action="#">
-                                                <div class="input-group">
-                                                    <input type="text" class="form-control  search-field"
-                                                        placeholder="Search.." aria-label="Recipient's username">
-                                                    <div class="input-group-append">
-                                                        <button class="search-submit" type="submit">
-                                                            <i class="fas fa-search" aria-hidden="true"></i>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="icon">
-                            <ul class="social-icon">
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-google-plus-g"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <!-- ==================== -->
-    <!-- == hero-section == -->
-    <!-- ==================== -->
-    <section class="hero-section">
-        <div class="slider-1 owl-carousel">
-            <div class="slide-item">
-                <div class="slide" style="background-image: url(./assets/images/hero-1.jpg.webp);">
-                    <div class="container">
-                        <div class="content">
-                            <span>SHAPE <span class="color-text">YOUR </span>BODY </span>
-                            <h2>BE <span class="color-text">STRONG </span> TRANING <span class="color-text">HARD </span>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="slide-item">
-                <div class="slide" style="background-image: url(./assets/images/hero-2.jpg.webp) ;">
-                    <div class="container">
-                        <div class="content">
-                            <span>SHAPE <span class="color-text">YOUR </span>BODY </span>
-                            <h2>YOU <span class="color-text">NEVER</span> GIVE <span class="color-text">UP</span>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ==================== -->
-    <!-- == why-choose-section == -->
-    <!-- ==================== -->
-    <section class="why-choose-section">
-        <div class="container">
-            <div class="section-title">
-                <span>WHY CHOOSE US?</span>
-                <h2>PUSH YOUR LIMITS FORWARD</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="why-choose-item">
-                        <div class="why-choose-icon">
-                            <img src="./assets/images/exercise.png" alt="">
-                        </div>
-                        <div class="why-choose-content">
-                            <h2>Modern equipment</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut dolore facilisis.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="why-choose-item">
-                        <div class="why-choose-icon">
-                            <img src="./assets/images/drink.png" alt="">
-                        </div>
-                        <div class="why-choose-content">
-                            <h2>Healthy nutrition</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut dolore facilisis.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="why-choose-item">
-                        <div class="why-choose-icon">
-                            <img src="./assets/images/dumbbell.png" alt="">
-                        </div>
-                        <div class="why-choose-content">
-                            <h2>Proffesponal training</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut dolore facilisis.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="why-choose-item">
-                        <div class="why-choose-icon">
-                            <img src="./assets/images/heart-beat.png" alt="">
-                        </div>
-                        <div class="why-choose-content">
-                            <h2>Unique to your needs</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut dolore facilisis.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ==================== -->
-    <!-- == our-classes-section == -->
-    <!-- ==================== -->
-    <section class="our-classes-section">
-        <div class="container">
-            <div class="section-title">
-                <span>OUR CLASSES</span>
-                <h2>WHAT WE CAN OFFER</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="class-item">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="./assets/images/class-1.jpg.webp" alt="Title">
-                            </div>
-                            <div class="card-body">
-                                <span>STRENGTH</span>
-                                <h2>WEIGHTLIFTING</h2>
-                                <a href="#!" class="read-more">
-                                    <i class="fas fa-long-arrow-alt-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="class-item">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="./assets/images/class-2.jpg.webp" alt="Title">
-                            </div>
-                            <div class="card-body">
-                                <span>STRENGTH</span>
-                                <h2>INDOOR CYCLING</h2>
-                                <a href="#!" class="read-more">
-                                    <i class="fas fa-long-arrow-alt-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="class-item">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="./assets/images/class-3.jpg.webp" alt="Title">
-                            </div>
-                            <div class="card-body">
-                                <span>STRENGTH</span>
-                                <h2>KETTLEBELL POWER</h2>
-                                <a href="#!" class="read-more">
-                                    <i class="fas fa-long-arrow-alt-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="class-item">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="./assets/images/class-4.jpg.webp" alt="Title">
-                            </div>
-                            <div class="card-body">
-                                <span>STRENGTH</span>
-                                <h2>KETTLEBELL POWER</h2>
-                                <a href="#!" class="read-more">
-                                    <i class="fas fa-long-arrow-alt-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="class-item">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="./assets/images/class-5.jpg.webp" alt="Title">
-                            </div>
-                            <div class="card-body">
-                                <span>STRENGTH</span>
-                                <h2>Boxing</h2>
-                                <a href="#!" class="read-more">
-                                    <i class="fas fa-long-arrow-alt-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ==================== -->
-    <!-- == about-section == -->
-    <!-- ==================== -->
-    <section class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="about-content">
-                        <h2>REGISTRATION NOW TO GET <span class="color-text"> MORE DEALS</span>
-                        </h2>
-                        <p>WHERE HEALTH, BEAUTY AND FITNESS MEET.</p>
-                        <button>Appointment</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ==================== -->
-    <!-- == pricing-section == -->
-    <!-- ==================== -->
-    <section class="pricing-section">
-        <div class="container">
-            <div class="section-title">
-                <span>OUR PLAN</span>
-                <h2>CHOOSE YOUR PRICING PLAN</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="pricing-item">
-                        <div class="pricing-top">
-                            <h2>BASIC</h2>
-                            <span>$ 39.0</span>
-                            <p>Class drop-in</p>
-                        </div>
-                        <div class="pricing-bottom">
-                            <ul class="pricing-plan">
-                                <li>Free riding</li>
-                                <li>Unlimited equipments</li>
-                                <li>Personal trainer</li>
-                                <li>Weight losing classes</li>
-                                <li>Month to mouth</li>
-                                <li>No time restriction</li>
-                            </ul>
-                            <a href="#">ENROLL NOW</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="pricing-item">
-                        <div class="pricing-top">
-                            <h2>STANDARD</h2>
-                            <span>$ 59.0</span>
-                            <p>06 Month unlimited</p>
-                        </div>
-                        <div class="pricing-bottom">
-                            <ul class="pricing-plan">
-                                <li>Free riding</li>
-                                <li>Unlimited equipments</li>
-                                <li>Personal trainer</li>
-                                <li>Weight losing classes</li>
-                                <li>Month to mouth</li>
-                                <li>No time restriction</li>
-                            </ul>
-                            <a href="#">ENROLL NOW</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="pricing-item">
-                        <div class="pricing-top">
-                            <h2> PREMIUM</h2>
-                            <span>$ 99.0</span>
-                            <p>12 Month unlimited</p>
-                        </div>
-                        <div class="pricing-bottom">
-                            <ul class="pricing-plan">
-                                <li>Free riding</li>
-                                <li>Unlimited equipments</li>
-                                <li>Personal trainer</li>
-                                <li>Weight losing classes</li>
-                                <li>Month to mouth</li>
-                                <li>No time restriction</li>
-                            </ul>
-                            <a href="#">ENROLL NOW</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ==================== -->
-    <!-- == gallery-section == -->
-    <!-- ==================== -->
-    <section class="gallery-section">
-        <div class="container">
-            <div class="row">
-                <div class="column">
-                    <div class="gallery-item">
-                        <div class="gallery-image">
-                            <img src="./assets/images/gallery-2.jpg.webp" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="gallery-item">
-                        <div class="gallery-image">
-                            <img src="./assets/images/gallery-3.jpg.webp" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="gallery-item">
-                        <div class="gallery-image">
-                            <img src="./assets/images/gallery-5.jpg.webp" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="gallery-item">
-                        <div class="gallery-image">
-                            <img src="./assets/images/gallery-4.jpg.webp" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="column">
-                    <div class="gallery-item">
-                        <div class="gallery-image">
-                            <img src="./assets/images/gallery-5.jpg.webp" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="gallery-item">
-                        <div class="gallery-image">
-                            <img src="./assets/images/gallery-4.jpg.webp" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="gallery-item">
-                        <div class="gallery-image">
-                            <img src="./assets/images/gallery-3.jpg.webp" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="gallery-item">
-                        <div class="gallery-image">
-                            <img src="./assets/images/gallery-2.jpg.webp" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ==================== -->
-    <!-- == team-section == -->
-    <!-- ==================== -->
-    <section class="team-section">
-        <div class="container">
-            <div class="team-top">
-                <div class="section-title">
-                    <span>OUR TEAM</span>
-                    <h2>TRAIN WITH EXPERTS</h2>
-                </div>
-                <div class="Appointment-link">
-                    <a href="">APPOINTMENT</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="slider-2 owl-carousel">
-                    <div class="slide-item">
-                        <div class="team-item">
-                            <div class="team-image">
-                                <img src="./assets/images/team-1.jpg.webp" alt="">
-                            </div>
-                            <div class="team-content">
-                                <h2>Matlin Gros</h2>
-                                <span>Weight Loss</span>
-                                <ul class="team-social">
-                                    <li>
-                                        <a href="">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <i class="fab fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <i class="fab fa-youtube"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide-item">
-                        <div class="team-item">
-                            <div class="team-image">
-                                <img src="./assets/images/team-2.jpg.webp" alt="">
-                            </div>
-                            <div class="team-content">
-                                <h2>Boby Lasly</h2>
-                                <span>Gym Trainer</span>
-                                <ul class="team-social">
-                                    <li>
-                                        <a href="">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <i class="fab fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <i class="fab fa-youtube"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide-item">
-                        <div class="team-item">
-                            <div class="team-image">
-                                <img src="./assets/images/team-3.jpg.webp" alt="">
-                            </div>
-                            <div class="team-content">
-                                <h2>David Joko</h2>
-                                <span>Personal Training</span>
-                                <ul class="team-social">
-                                    <li>
-                                        <a href="">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <i class="fab fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <i class="fab fa-youtube"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide-item">
-                        <div class="team-item">
-                            <div class="team-image">
-                                <img src="./assets/images/team-4.jpg.webp" alt="">
-                            </div>
-                            <div class="team-content">
-                                <h2>Jack Oliver</h2>
-                                <span>Karate</span>
-                                <ul class="team-social">
-                                    <li>
-                                        <a href="">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <i class="fab fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <i class="fab fa-youtube"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide-item">
-                        <div class="team-item">
-                            <div class="team-image">
-                                <img src="./assets/images/team-5.jpg.webp" alt="">
-                            </div>
-                            <div class="team-content">
-                                <h2>Naya Edward</h2>
-                                <span>Gym Trainer</span>
-                                <ul class="team-social">
-                                    <li>
-                                        <a href="">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <i class="fab fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <i class="fab fa-youtube"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ==================== -->
-    <!-- == contact-section == -->
-    <!-- ==================== -->
-    <section class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="contact-item">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 contact-icon">
-                                <i class="fas fa-location-arrow" aria-hidden="true"></i>
-                            </div>
-                            <div class="flex-grow-1 ms-3">
-                                <p class="mt-0">333 Middle Winchendon </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="contact-item">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 contact-icon">
-                                <i class="fa fa-mobile" aria-hidden="true"></i>
-                            </div>
-                            <div class="flex-grow-1 ms-3">
-                                <p class="mt-0">
-                                    <a href="#">12571181-1125668</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="contact-item">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 contact-icon">
-                                <i class="fas fa-envelope" aria-hidden="true"></i>
-                            </div>
-                            <div class="flex-grow-1 ms-3">
-                                <p class="mt-0">
-                                    <a href="#">gymcenter@gmail.com</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ==================== -->
-    <!-- == footer-section == -->
-    <!-- ==================== -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="footer-item">
-                        <div class="footer-logo">
-                            <a href="#">
-                                <img src="./assets/images/logo.png.webp" alt="">
-                            </a>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore dolore magna aliqua endisse ultrices gravida lorem.</p>
-                        <ul class="social">
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-facebook" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fab fa-youtube" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class=" fab fa-instagram" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fas fa-envelope" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6">
-                    <div class="footer-item">
-                        <h2>Useful links</h2>
-                        <ul class="Useful-links">
-                            <li>
-                                <a href="#">About</a>
-                            </li>
-                            <li>
-                                <a href="#">Blog</a>
-                            </li>
-                            <li>
-                                <a href="#">Classes</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact</a>
-                            </li>
-                            <li>
-                                <a href="#">Services</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6">
-                    <div class="footer-item">
-                        <div class="footer-item">
-                            <h2>Support</h2>
-                            <ul class="Support-links">
-                                <li>
-                                    <a href="#">Login</a>
-                                </li>
-                                <li>
-                                    <a href="#">My Account</a>
-                                </li>
-                                <li>
-                                    <a href="#">Classes</a>
-                                </li>
-                                <li>
-                                    <a href="#">subscribe</a>
-                                </li>
-                                <li>
-                                    <a href="#">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="footer-item">
-                        <h2>Tips & Guides</h2>
-                        <div class="Comment-box">
-                            <a href="#">Physical fitness may help prevent depression, anxiety</a>
-                            <p>3 min read | 20 Comment</p>
-                        </div>
-                        <div class="Comment-box">
-                            <a href="#">Fitness: The best exercise to lose belly fat and tone up...</a>
-                            <p>3 min read | 20 Comment</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="copy-right">
-                <p>Copyright ©2024 All rights reserved</p>
-            </div>
-            <div class="top-button">
-                <a href="#" class="top">
-                    <i class="fas fa-angle-up"></i>
+  <!-- ==================== -->
+  <!-- == header-section == -->
+  <!-- ==================== -->
+  <header class="header-section">
+    <div class="menu-bar is-sticky-on">
+      <!-- Navbar -->
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images/logo.png.webp" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+              <i class="fas fa-bars"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto p-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#"> Team</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link">pages <i class="fa fa-angle-down"></i>
                 </a>
+                <div class="dropdown-menu">
+                  <a href="#" class="dropdown-item"> Home</a>
+                  <a href="#" class="dropdown-item"> About</a>
+                  <a href="#" class="dropdown-item"> Classes</a>
+                  <a href="#" class="dropdown-item"> Services</a>
+                  <a href="#" class="dropdown-item"> Pages</a>
+                  <a href="#" class="dropdown-item"> Contact</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">contact</a>
+              </li>
+            </ul>
+            <!-- Button trigger modal -->
+            <div class="search-icon" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <i class="fas fa-search search"></i>
             </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                      <i class="fas fa-times"></i>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="example">
+                      <form role="search" method="post" class="search-form" action="#">
+                        <div class="input-group">
+                          <input type="text" class="form-control search-field" placeholder="Search.."
+                            aria-label="Recipient's username">
+                          <div class="input-group-append">
+                            <button class="search-submit" type="submit">
+                              <i class="fas fa-search" aria-hidden="true"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="icon">
+              <ul class="social-icon">
+                <li>
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-google-plus-g"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- ==================== -->
+  <!-- == hero-section == -->
+  <!-- ==================== -->
+  <section class="hero-section">
+    <div class="slider-1 owl-carousel">
+      <div class="slide-item">
+        <div class="slide" style="background-image: url(./assets/images/hero-1.jpg.webp)">
+          <div class="container">
+            <div class="content">
+              <span>SHAPE <span class="color-text">YOUR </span>BODY </span>
+              <h2>
+                BE <span class="color-text">STRONG </span> TRANING
+                <span class="color-text">HARD </span>
+              </h2>
+            </div>
+          </div>
         </div>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.js"></script>
-    <script src="assets/js/script.js"></script>
+      </div>
+      <div class="slide-item">
+        <div class="slide" style="background-image: url(./assets/images/hero-2.jpg.webp)">
+          <div class="container">
+            <div class="content">
+              <span>SHAPE <span class="color-text">YOUR </span>BODY </span>
+              <h2>
+                YOU <span class="color-text">NEVER</span> GIVE
+                <span class="color-text">UP</span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==================== -->
+  <!-- == why-choose-section == -->
+  <!-- ==================== -->
+  <section class="why-choose-section">
+    <div class="container">
+      <div class="section-title">
+        <span>WHY CHOOSE US?</span>
+        <h2>PUSH YOUR LIMITS FORWARD</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="why-choose-item">
+            <div class="why-choose-icon">
+              <img src="./assets/images/exercise.png" alt="">
+            </div>
+            <div class="why-choose-content">
+              <h2>Modern equipment</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut dolore facilisis.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="why-choose-item">
+            <div class="why-choose-icon">
+              <img src="./assets/images/drink.png" alt="">
+            </div>
+            <div class="why-choose-content">
+              <h2>Healthy nutrition</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut dolore facilisis.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="why-choose-item">
+            <div class="why-choose-icon">
+              <img src="./assets/images/dumbbell.png" alt="">
+            </div>
+            <div class="why-choose-content">
+              <h2>Proffesponal training</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut dolore facilisis.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="why-choose-item">
+            <div class="why-choose-icon">
+              <img src="./assets/images/heart-beat.png" alt="">
+            </div>
+            <div class="why-choose-content">
+              <h2>Unique to your needs</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut dolore facilisis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==================== -->
+  <!-- == our-classes-section == -->
+  <!-- ==================== -->
+  <section class="our-classes-section">
+    <div class="container">
+      <div class="section-title">
+        <span>OUR CLASSES</span>
+        <h2>WHAT WE CAN OFFER</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="class-item">
+            <div class="card">
+              <div class="card-image">
+                <img src="./assets/images/class-1.jpg.webp" alt="Title">
+              </div>
+              <div class="card-body">
+                <span>STRENGTH</span>
+                <h2>WEIGHTLIFTING</h2>
+                <a href="#!" class="read-more">
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="class-item">
+            <div class="card">
+              <div class="card-image">
+                <img src="./assets/images/class-2.jpg.webp" alt="Title">
+              </div>
+              <div class="card-body">
+                <span>STRENGTH</span>
+                <h2>INDOOR CYCLING</h2>
+                <a href="#!" class="read-more">
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="class-item">
+            <div class="card">
+              <div class="card-image">
+                <img src="./assets/images/class-3.jpg.webp" alt="Title">
+              </div>
+              <div class="card-body">
+                <span>STRENGTH</span>
+                <h2>KETTLEBELL POWER</h2>
+                <a href="#!" class="read-more">
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="class-item">
+            <div class="card">
+              <div class="card-image">
+                <img src="./assets/images/class-4.jpg.webp" alt="Title">
+              </div>
+              <div class="card-body">
+                <span>STRENGTH</span>
+                <h2>KETTLEBELL POWER</h2>
+                <a href="#!" class="read-more">
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="class-item">
+            <div class="card">
+              <div class="card-image">
+                <img src="./assets/images/class-5.jpg.webp" alt="Title">
+              </div>
+              <div class="card-body">
+                <span>STRENGTH</span>
+                <h2>Boxing</h2>
+                <a href="#!" class="read-more">
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==================== -->
+  <!-- == about-section == -->
+  <!-- ==================== -->
+  <section class="about-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="about-content">
+            <h2>
+              REGISTRATION NOW TO GET
+              <span class="color-text"> MORE DEALS</span>
+            </h2>
+            <p>WHERE HEALTH, BEAUTY AND FITNESS MEET.</p>
+            <button>Appointment</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==================== -->
+  <!-- == pricing-section == -->
+  <!-- ==================== -->
+  <section class="pricing-section">
+    <div class="container">
+      <div class="section-title">
+        <span>OUR PLAN</span>
+        <h2>CHOOSE YOUR PRICING PLAN</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="pricing-item">
+            <div class="pricing-top">
+              <h2>BASIC</h2>
+              <span>$ 39.0</span>
+              <p>Class drop-in</p>
+            </div>
+            <div class="pricing-bottom">
+              <ul class="pricing-plan">
+                <li>Free riding</li>
+                <li>Unlimited equipments</li>
+                <li>Personal trainer</li>
+                <li>Weight losing classes</li>
+                <li>Month to mouth</li>
+                <li>No time restriction</li>
+              </ul>
+              <a href="#">ENROLL NOW</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="pricing-item">
+            <div class="pricing-top">
+              <h2>STANDARD</h2>
+              <span>$ 59.0</span>
+              <p>06 Month unlimited</p>
+            </div>
+            <div class="pricing-bottom">
+              <ul class="pricing-plan">
+                <li>Free riding</li>
+                <li>Unlimited equipments</li>
+                <li>Personal trainer</li>
+                <li>Weight losing classes</li>
+                <li>Month to mouth</li>
+                <li>No time restriction</li>
+              </ul>
+              <a href="#">ENROLL NOW</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="pricing-item">
+            <div class="pricing-top">
+              <h2>PREMIUM</h2>
+              <span>$ 99.0</span>
+              <p>12 Month unlimited</p>
+            </div>
+            <div class="pricing-bottom">
+              <ul class="pricing-plan">
+                <li>Free riding</li>
+                <li>Unlimited equipments</li>
+                <li>Personal trainer</li>
+                <li>Weight losing classes</li>
+                <li>Month to mouth</li>
+                <li>No time restriction</li>
+              </ul>
+              <a href="#">ENROLL NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==================== -->
+  <!-- == gallery-section == -->
+  <!-- ==================== -->
+  <section class="gallery-section">
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <div class="gallery-item">
+            <div class="gallery-image">
+              <img src="./assets/images/gallery-2.jpg.webp" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gallery-item">
+            <div class="gallery-image">
+              <img src="./assets/images/gallery-3.jpg.webp" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gallery-item">
+            <div class="gallery-image">
+              <img src="./assets/images/gallery-5.jpg.webp" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gallery-item">
+            <div class="gallery-image">
+              <img src="./assets/images/gallery-4.jpg.webp" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="gallery-item">
+            <div class="gallery-image">
+              <img src="./assets/images/gallery-5.jpg.webp" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gallery-item">
+            <div class="gallery-image">
+              <img src="./assets/images/gallery-4.jpg.webp" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gallery-item">
+            <div class="gallery-image">
+              <img src="./assets/images/gallery-3.jpg.webp" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gallery-item">
+            <div class="gallery-image">
+              <img src="./assets/images/gallery-2.jpg.webp" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==================== -->
+  <!-- == team-section == -->
+  <!-- ==================== -->
+  <section class="team-section">
+    <div class="container">
+      <div class="team-top">
+        <div class="section-title">
+          <span>OUR TEAM</span>
+          <h2>TRAIN WITH EXPERTS</h2>
+        </div>
+        <div class="Appointment-link">
+          <a href="">APPOINTMENT</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="slider-2 owl-carousel">
+          <div class="slide-item">
+            <div class="team-item">
+              <div class="team-image">
+                <img src="./assets/images/team-1.jpg.webp" alt="">
+              </div>
+              <div class="team-content">
+                <h2>Matlin Gros</h2>
+                <span>Weight Loss</span>
+                <ul class="team-social">
+                  <li>
+                    <a href="">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="slide-item">
+            <div class="team-item">
+              <div class="team-image">
+                <img src="./assets/images/team-2.jpg.webp" alt="">
+              </div>
+              <div class="team-content">
+                <h2>Boby Lasly</h2>
+                <span>Gym Trainer</span>
+                <ul class="team-social">
+                  <li>
+                    <a href="">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="slide-item">
+            <div class="team-item">
+              <div class="team-image">
+                <img src="./assets/images/team-3.jpg.webp" alt="">
+              </div>
+              <div class="team-content">
+                <h2>David Joko</h2>
+                <span>Personal Training</span>
+                <ul class="team-social">
+                  <li>
+                    <a href="">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="slide-item">
+            <div class="team-item">
+              <div class="team-image">
+                <img src="./assets/images/team-4.jpg.webp" alt="">
+              </div>
+              <div class="team-content">
+                <h2>Jack Oliver</h2>
+                <span>Karate</span>
+                <ul class="team-social">
+                  <li>
+                    <a href="">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="slide-item">
+            <div class="team-item">
+              <div class="team-image">
+                <img src="./assets/images/team-5.jpg.webp" alt="">
+              </div>
+              <div class="team-content">
+                <h2>Naya Edward</h2>
+                <span>Gym Trainer</span>
+                <ul class="team-social">
+                  <li>
+                    <a href="">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==================== -->
+  <!-- == contact-section == -->
+  <!-- ==================== -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="contact-item">
+            <div class="d-flex">
+              <div class="flex-shrink-0 contact-icon">
+                <i class="fas fa-location-arrow" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 ms-3">
+                <p class="mt-0">333 Middle Winchendon</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-item">
+            <div class="d-flex">
+              <div class="flex-shrink-0 contact-icon">
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 ms-3">
+                <p class="mt-0">
+                  <a href="#">12571181-1125668</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-item">
+            <div class="d-flex">
+              <div class="flex-shrink-0 contact-icon">
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 ms-3">
+                <p class="mt-0">
+                  <a href="#">gymcenter@gmail.com</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==================== -->
+  <!-- == footer-section == -->
+  <!-- ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-item">
+            <div class="footer-logo">
+              <a href="#">
+                <img src="./assets/images/logo.png.webp" alt="">
+              </a>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore dolore magna aliqua endisse
+              ultrices gravida lorem.
+            </p>
+            <ul class="social">
+              <li>
+                <a href="#">
+                  <i class="fab fa-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-twitter" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-youtube" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-envelope" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div class="footer-item">
+            <h2>Useful links</h2>
+            <ul class="Useful-links">
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">Classes</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li>
+                <a href="#">Services</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div class="footer-item">
+            <div class="footer-item">
+              <h2>Support</h2>
+              <ul class="Support-links">
+                <li>
+                  <a href="#">Login</a>
+                </li>
+                <li>
+                  <a href="#">My Account</a>
+                </li>
+                <li>
+                  <a href="#">Classes</a>
+                </li>
+                <li>
+                  <a href="#">subscribe</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-item">
+            <h2>Tips & Guides</h2>
+            <div class="Comment-box">
+              <a href="#">Physical fitness may help prevent depression, anxiety</a>
+              <p>3 min read | 20 Comment</p>
+            </div>
+            <div class="Comment-box">
+              <a href="#">Fitness: The best exercise to lose belly fat and tone
+                up...</a>
+              <p>3 min read | 20 Comment</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="copy-right">
+        <p>Copyright ©2024 All rights reserved</p>
+      </div>
+      <div class="top-button">
+        <a href="#" class="top">
+          <i class="fas fa-angle-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>
